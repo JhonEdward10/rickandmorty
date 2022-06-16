@@ -1,0 +1,105 @@
+*{
+  font-family: sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(39, 33, 33);;
+}
+
+.Banner{
+  background-image: url(https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif);
+  height: 200px;
+  background-position: 45% 33%;
+}
+
+.Presentation{
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+h1, h3 {
+  font-family: "Pangolin",sans-serif;
+}
+
+input{
+
+  text-align: center;
+  background: #443737;
+  box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
+  border: 0;
+  width: 50%;
+  height: 40px;
+  font-size: 1rem;
+  padding: 10px;
+  outline: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .description{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  text-align: center;
+  margin: 10px;
+}
+
+.Search{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px  
+}
+
+button{
+  background-color: #443737;
+  border: none;
+  border-radius: 10%;
+}
+
+.Card-Container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.Card-Character{
+  background: #3d3535;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.Card-Character img{
+  width: 200px;
+  border-radius: 10px;
+}
